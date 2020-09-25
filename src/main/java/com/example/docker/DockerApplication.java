@@ -15,7 +15,7 @@ public class DockerApplication {
 	
 	@GetMapping("/message")
 	public String getMessage(){
-		return "welcome to AWS world!";
+		return "welcome to docker-jenkins world";
 	}
 
 }
